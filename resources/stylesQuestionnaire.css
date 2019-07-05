@@ -1,0 +1,42 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/b4/2e/aa/b42eaaabdb5adfcb98e4d5184f5fb6ad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 2rem;
+  color: FireBrick;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.question1,
+.question2,
+.question3,
+.question4,
+.question5,
+.question6,
+.question7,
+.question8{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: MediumVioletRed;
+}
+li{
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
