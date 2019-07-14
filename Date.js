@@ -66,4 +66,16 @@ class User{
       alert('If you have no preference please leave this field blank');
     }
   }
+  findMatch(){
+    let potentialMatches = [];
+    let count = 0;
+    const answer1;
+    const answer2;
+    const answer3;
+    const answer4;
+    const answer5;
+    const answer6;
+    const answer7;
+    const answer8;
+  }
 }

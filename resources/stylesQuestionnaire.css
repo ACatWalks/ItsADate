@@ -9,7 +9,7 @@ h1{
   font-family: cursive;
   font-size: 2rem;
   color: FireBrick;
-  margin-top: 15px;
+  margin-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
@@ -28,7 +28,7 @@ h3{
 .question6,
 .question7,
 .question8{
-  margin-left: 20px;
+  margin-left: 30px;
   margin-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -39,4 +39,12 @@ h3{
 li{
   padding-bottom: 5px;
   padding-top: 5px;
+}
+.submitButton{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
