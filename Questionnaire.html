@@ -4,11 +4,17 @@
   <title>Questionnaire</title>
   <link href="./resources/rest.css" type="text/css" rel="stylesheet"/>
   <link href="./resources/stylesQuestionnaire.css" type="text/css" rel="stylesheet"/>
+  <script src="./Date.js"></script>
 </head>
 <body>
+  <form action="#" method="post" name="questionnaire" id="questionnaire" class="questionnaire">
   <h1>It's A Date! Questionnaire</h1>
   <div class="question1">
   <h3>Please state your</h3>
+  <script>
+  let name = '', sex='', race='', preferredSex='', preferredRace='';
+  const myClass = new User(name, sex, race, preferredSex, preferredRace);
+  </script>
   <ul>
     <li><label for ="name">Name</label></li>
     <li><input type="text" id="name" required="true" spellcheck="false"></li>
@@ -96,6 +102,8 @@
     <li><textarea rows="15" cols="30" required="true" spellcheck="true"></textarea></li>
     </div>
   </ol>
-  <div class="submitButton"><input type="submit"></div>
+  <div class="submitButton">
+    <button type="button" onclick = 'this.findMatch();' onclick = {document.getElementById("questionnaire").submit();} onclick = {document.forms["questionnaire"].submit();}>Submit</button></div>
+</form>
 </body>
 </html>
