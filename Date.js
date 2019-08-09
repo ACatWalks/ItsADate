@@ -69,8 +69,8 @@ class User{
   findMatch(){
     let potentialMatches = [];
     let count = 0;
-    let answer1 = document.getElementById('answer1').value;
-    let answer2 = document.getElementById('answer2').value;
+    let answer1 = document.getElementByName('goals').value;
+    let answer2 = document.getElementByName('HPQuestion').value;
     let answer3 = document.getElementById('answer3').value;
     let answer4a = document.getElementById('answer4a').value;
     let answer4b = document.getElementById('answer4b').value;

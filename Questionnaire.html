@@ -48,10 +48,10 @@
     <li>
       <h3><label for="goals">Are you looking for a</label></h3>
       <ul>
-        <li><input type="radio" id = "answer1" name="goals" value="a">A. Relationship</li>
-        <li><input type="radio" id = "answer1" name="goals" value="b">B. Marriage</li>
-        <li><input type="radio" id = "answer1" name="goals" value="c">C. Casual Sex</li>
-        <li><input type="radio" id = "answer1" name="goals" value="d">D. Other</li>
+        <li><input type="radio" name="goals" value="a">A. Relationship</li>
+        <li><input type="radio" name="goals" value="b">B. Marriage</li>
+        <li><input type="radio" name="goals" value="c">C. Casual Sex</li>
+        <li><input type="radio" name="goals" value="d">D. Other</li>
       </ul>
     </li>
     </div>
@@ -59,10 +59,10 @@
     <li>
       <h3><label for="HPQuestion">If you found a purse full of money on the ground what would you do?</label></h3>
       <ul>
-        <li><input type="radio" id = "answer2" name="HPQuestion" value="a">A. Save it</li>
-        <li><input type="radio" id = "answer2" name="HPQuestion" value="b">B. Spend it</li>
-        <li><input type="radio" id = "answer2" name="HPQuestion" value="c">C. Donate it</li>
-        <li><input type="radio" id = "answer2" name="HPQuestion" value="d">D. Return it</li>
+        <li><input type="radio" name="HPQuestion" value="a">A. Save it</li>
+        <li><input type="radio" name="HPQuestion" value="b">B. Spend it</li>
+        <li><input type="radio" name="HPQuestion" value="c">C. Donate it</li>
+        <li><input type="radio" name="HPQuestion" value="d">D. Return it</li>
       </ul>
     </li>
     </div>
@@ -106,7 +106,8 @@
     </div>
   </ol>
   <div class="submitButton">
-    <button type="button" onclick = 'myClass.findMatch();' onclick = {document.getElementById("questionnaire").submit();} onclick = {document.forms["questionnaire"].submit();}>Submit</button></div>
+    <button type="button" onclick = 'myClass.findMatch();'>Submit</button>
+  </div>
 </form>
 </body>
 </html>
