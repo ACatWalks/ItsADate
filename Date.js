@@ -69,15 +69,25 @@ class User{
   findMatch(){
     let potentialMatches = [];
     let count = 0;
-    let answer1;
-    let answer2;
-    let answer3;
-    let answer4;
-    let answer5;
-    let answer6;
-    let answer7;
+    let answer1 = document.getElementById('answer1').value;
+    let answer2 = document.getElementById('answer2').value;
+    let answer3 = document.getElementById('answer3').value;
+    let answer4a = document.getElementById('answer4a').value;
+    let answer4b = document.getElementById('answer4b').value;
+    let answer4c = document.getElementById('answer4c').value;
+    let answer4d = document.getElementById('answer4d').value;
+    let answer4e = document.getElementById('answer4e').value;
+    let answer4f = document.getElementById('answer4f').value;
+    let answer5a = document.getElementById('answer5a').value;
+    let answer5b = document.getElementById('answer5b').value;
+    let answer5c = document.getElementById('answer5c').value;
+    let answer5d = document.getElementById('answer5d').value;
+    let answer5e = document.getElementById('answer5e').value;
+    let answer5f = document.getElementById('answer5f').value;
+    let answer6 = document.getElementById('answer6').value;
+    let answer7 = document.getElementById('answer7').value;
     for (i=0; i<otherUserProfiles.length; i++){
-      if(this._preferredSex == otherUser._sex && this._preferredRace == otherUser._race){
+      if(this._preferredSex == otherUser._sex && this._preferredRace == otherUser._race || this._preferredRace == 'null'){
         potentialMatches.push(otherUser);
       }
     }
@@ -91,13 +101,28 @@ class User{
       if(answer3 contains potentialMatches[i].answer3){
         count +=;
       }
-      if(answer4 == potentialMatches[i].answer5){
+      if(answer4a == potentialMatches[i].answer5a){
+        count+=;
+      }
+      if(answer4b == potentialMatches[i].answer5b){
+        count+=;
+      }
+      if(answer4c == potentialMatches[i].answer5c){
+        count+=;
+      }
+      if(answer4d == potentialMatches[i].answer5d){
+        count+=;
+      }
+      if(answer4e == potentialMatches[i].answer5e){
+        count+=;
+      }
+      if(answer4f == potentialMatches[i].answer5f){
         count+=;
       }
       if(answer6 contains potentialMatches[i].answer7){
         count +=;
       }
-      if(count < 4){
+      if(count < 7){
         potentialMatches.pop(potentialMatches[i])
       }
       count = 0;
