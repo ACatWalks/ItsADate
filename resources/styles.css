@@ -179,3 +179,36 @@ li{
   flex-direction: column;
   width: 30%;
 }
+@media screen only and (max-width: 480px){
+  .header{
+    flex-direction: column;
+    position: static;
+  }
+  .testimonials ul{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.25rem;
+  }
+  .testimonials .col1{
+    width: 100%;
+    height: 30%;
+  }
+  .testimonials .col2{
+    width: 100%;
+    height: 30%;
+  }
+  .testimonials .col3{
+    width: 100%;
+    height: 30%;
+  }
+  .footer{
+    display: hidden;
+  }
+}

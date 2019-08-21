@@ -48,3 +48,11 @@ li{
   padding-left: 25px;
   padding-right: 25px;
 }
+@media screen only and (max-width: 480px){
+  h1{
+    font-size: 1.75rem;
+  }
+  h3{
+    font-size: 1.25rem;
+  }
+}
